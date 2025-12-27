@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BotDo Labs</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #000;
+      --fg: #f2f2f2;
+      --muted: #b3b3b3;
+      --accent: #00ffd0;
+      --max-width: 720px;
+      --font-body: "Helvetica Neue", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: var(--font-body);
+      padding: 48px 24px;
+    }
+    .card {
+      max-width: var(--max-width);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 28px 32px;
+      box-shadow: 0 12px 48px rgba(0, 0, 0, 0.55);
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+    }
+    p { margin: 0 0 14px; line-height: 1.6; color: var(--muted); }
+    .examples { margin-top: 18px; }
+    .examples p { margin: 8px 0; color: var(--fg); }
+    .accent { color: var(--accent); font-weight: 600; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>BotDo Labs</h1>
+    <p>
+      At <b>BotDo Labs</b>, we specialize in helping forward-thinking companies save time and money by implementing bespoke AI solutions. We transform the tedious, time-consuming tasks that drain your team’s energy into streamlined background processes, allowing you to reclaim your resources and focus on growth.
+    </p>
+    <p>
+      Imagine a world where your most complex business operations, both digital and physical, are handled simply by saying, “<span class="accent">Bot, do</span>...”
+    </p>
+    <div class="examples">
+      <p>“<span class="accent">Bot, do</span> my taxes.” <span class="muted">(Automating financial compliance and reporting)</span></p>
+      <p>“<span class="accent">Bot, do</span> our billing.” <span class="muted">(Taking care of daily administrative chores)</span></p>
+      <p>“<span class="accent">Bot, do</span> the landscape maintenance.” <span class="muted">(Mechanizing physical labor)</span></p>
+    </div>
+  </main>
+</body>
+</html>
